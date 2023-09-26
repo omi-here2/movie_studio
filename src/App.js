@@ -10,7 +10,7 @@ const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [movies, setMovies] = useState([]);
 
-  useEffect(() => {
+  useEffect(() => {    
     searchMovies("Batman");
   }, []);
 
